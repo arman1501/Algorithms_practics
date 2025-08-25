@@ -1,53 +1,60 @@
-// #include <bits/stdc++.h>
-// using namespace std;
+// *** Selection Sort ***
 
-// void selection(int n, int ar[])
-// {
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void selection(int n, int ar[])
+{
     
-//     for(int i = 0; i < n - 1; i++)
-//     {
-//         for(int j = i + 1; j < n; j++)
-//         {
-//             if(ar[i] > ar[j])
-//             {
-//                 swap(ar[i], ar[j]);
-//             }
-//             //  for(int i = 0; i < n; i++)
-//             // {
-//             //     cout << ar[i] << " ";        // Total step ber korar jonne use kori.
-//             // }
-//             // cout << endl;           
-//         }
-//     }
+    for(int i = 0; i < n - 1; i++)
+    {
+        for(int j = i + 1; j < n; j++)
+        {
+            if(ar[i] > ar[j])
+            {
+                swap(ar[i], ar[j]);
+            }
+             for(int i = 0; i < n; i++)
+            {
+                cout << ar[i] << " ";        // Total step ber korar jonne use kori.
+            }
+            cout << endl;           
+        }
+    }
     
-// }
+}
 
 
-//  int main() {
-//     int n; cin >> n;
-//     int ar[n];
-//     for(int i = 0; i < n; i++)
-//     {
-//         cin >> ar[i];
-//     }
+ int main() {
+    int n; cin >> n;
+    int ar[n];
+    for(int i = 0; i < n; i++)
+    {
+        cin >> ar[i];
+    }
 
-//     selection(n, ar);
+    selection(n, ar);
 
-//      for(int i = 0; i < n; i++)
-//             {
-//                 cout << ar[i] << " ";           // Using for sorted.
-//             }
-//             cout << endl;
+     for(int i = 0; i < n; i++)
+            {
+                cout << ar[i] << " ";           // Using for sorted.
+            }
+            cout << endl;
             
-//   return 0;
-//  }
-// /* Input: 6
-//         5 8 6 1 7 2
+  return 0;
+ }
+/* Input: 6
+        5 8 6 1 7 2
 
-// Output: 1 2 5 6 7 8
-// */
+Output: 1 2 5 6 7 8
+*/
 
-// // Selection Sort Algo:
+
+// Method 2 number:
+
+/*
+
 #include <bits/stdc++.h>                // Header file.
 using namespace std;
 
@@ -102,3 +109,5 @@ int main()
 
     return 0;
 }
+    */
+

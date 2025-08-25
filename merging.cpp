@@ -1,3 +1,6 @@
+/*
+4) *** Merging Sort ***
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -62,3 +65,4 @@ void Merging(int A[], int B[], int C[], int m, int n)
 
   return 0;
  }
+*/

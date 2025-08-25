@@ -1,3 +1,4 @@
+
 // Adjancy Metrix:
 #include <bits/stdc++.h>
 using namespace std;
@@ -27,3 +28,4 @@ using namespace std;
 
   return 0;
  }
+

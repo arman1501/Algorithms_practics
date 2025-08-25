@@ -1,4 +1,6 @@
+
 //Topological sort using DFS adjancy metrix:
+
 #include <bits/stdc++.h>
 using namespace std;
 int graph[1001][1001];

@@ -1,3 +1,6 @@
+/*
+// *** Priority Queue ***
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -30,23 +33,5 @@ int main()
     }
     cout << endl;
 
-
-
-
-//    vector<int>v[10]; //1D Array //dynamic // Created with linked list but act as an array
-//
-//    v[4].push_back(10);
-//    v[4].push_back(20);
-//    for(int i = 0; i < v[4].size(); i++)
-//    {
-//        cout<<v[4][i]<<" ";
-//    }
-
-//    vector<string>s(5);
-//    vector<float>f[7];
-//    vector<vector<string> >ch;
-
-
-
-
 }
+*/
